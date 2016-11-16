@@ -1,10 +1,13 @@
 module.exports.calcCanyonDepth = function(canyon) {
 
-    var total = leftMax = rightMax = 0,
+    var total = 0,
+        leftMax = 0,
+        rightMax = 0,
         lefts = [],
-        rights = [];
+        rights = [],
+        i;
 
-    for (var i = 0; i < canyon.length; ++i) {
+    for (i in canyon) {
         leftMax = Math.max(leftMax, canyon[i]);
         lefts[i] = leftMax;
 

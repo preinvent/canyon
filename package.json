@@ -4,12 +4,14 @@
   "description": "",
   "main": "canyon.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec *.spec.js"
+    "test": "./node_modules/.bin/mocha --reporter spec *.spec.js",
+    "lint": "./node_modules/.bin/eslint canyon.js"
   },
   "author": "Matthew Butt <matt@preinvent.com>",
   "license": "ISC",
   "devDependencies": {
     "chai": "^3.5.0",
+    "eslint": "^3.10.2",
     "mocha": "^3.1.2"
   }
 }

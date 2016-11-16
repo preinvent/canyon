@@ -2,7 +2,7 @@
 
 ## The problem
 
-The premise of this problem is that you have to calculate how much water will fill a 2 dimensional canyon. Water will run off either side if there are no high walls.
+The premise of this problem is that you have to calculate how much water will fill a 2 dimensional canyon. Water will run off either side if there are no containing walls.
 
 For example, consider the following example:
 
@@ -28,7 +28,7 @@ If it rained evenly across the canyon, we would expect rain to drain off from th
    0 1 2 3 4
 ```
 
-Therefore for the answer to this particular problem is `2`.
+Therefore for the answer to this particular problem is `2` as there are two "blocks" of water that will collect in our canyon.
 
 ## Solution #1
 

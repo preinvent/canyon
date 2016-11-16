@@ -44,7 +44,7 @@ describe('Canyon algorithm', function() {
         expect(calcCanyonDepth([2,1,3,1,4])).to.eql(3);
     });
 
-    it('Should return 3 for [4,1,5,1,4]', function() {
+    it('Should return 6 for [4,1,5,1,4]', function() {
         expect(calcCanyonDepth([4,1,5,1,4])).to.eql(6);
     });
 

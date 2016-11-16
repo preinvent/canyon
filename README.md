@@ -44,13 +44,13 @@ Memory usage is constant as we only need to store the running total and high lef
 
 ## Solution #2
 
-A slightly more complex solution (and the solution given in the code here) is to first precompute the left and right peaks for each column in one loop, then scan and add up the running total from the left/right peaks already stored.
+A slightly more complex solution (and the solution given [in the code here](https://github.com/preinvent/canyon/blob/master/canyon.js)) is to first precompute the left and right peaks for each column in one loop, then scan and add up the running total from the left/right peaks already stored.
 
 This is a quicker linear solution as we're just scanning the set twice. Memory usage is slightly higher as we're storing two arrays, each with the length of the input set. However, in modern computing, memory is cheap and we often opt for indexed cached sets over computation for performance.
 
 # Running the code
 
-The code presented here for solution #2 is written in NodeJS and uses Mocha/Chai for its tests.
+The code presented here for solution #2 is written in NodeJS and uses Mocha/Chai for its [tests](https://github.com/preinvent/canyon/blob/master/canyon.spec.js).
 
 ## Using npm:
 
